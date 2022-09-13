@@ -1,4 +1,7 @@
-name = input("Введите имя")
-print("Привет, " + name + "!")
-print("Как дела,  " + name + "?")
-print("Приходи сегодня в гости!")
+import pyautogui
+pyautogui.moveTo(25, 1055)
+pyautogui.click()
+pyautogui.moveTo(100, 520)
+import time
+time.sleep(1)
+pyautogui.click()
